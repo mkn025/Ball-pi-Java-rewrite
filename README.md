@@ -12,3 +12,21 @@ cd Ball-pi-Java-rewrite
 ./gradlew run
 ```
 
+
+### planlagt struktur
+- model 
+  - Ball posisjon 
+  - fysikk og collisjoner
+  - state
+- view 
+  - tegne ballen
+  - lage all ui
+  - ikke ha noe logikk her
+- controller 
+  - håndrer bruker imput
+  - oppdater modellen
+  - tegne på nytt
+
+
+
+
